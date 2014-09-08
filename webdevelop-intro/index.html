@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>WEB Develop Intro</title>
+
+		<meta name="description" content="WEB Develop Intro">
+		<meta name="author" content="zmwebdev">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../revealjs/css/reveal.min.css">
+		<link rel="stylesheet" href="../revealjs/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../revealjs/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = '../revealjs/css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>WEB Develop Intro</h1>
+					<p>
+						<small>by <a href="https://github.com/zmwebdev">zmwebdev</a></small>
+					</p>
+				</section>
+
+
+				<section>
+					<h2>FrontEnd &nbsp;|&nbsp; BackEnd</h2>
+				</section>
+
+				<section>
+					<h2>Client &nbsp;|&nbsp; Server</h2>
+				</section>
+
+				<section>
+					<h3>Mobile is eating the World</h3>
+				</section>
+
+				<section>
+					<h3>
+						<img src="http://image.slidesharecdn.com/201305bea-130517184340-phpapp01/95/2013-05-bea-mobile-is-eating-the-world-5-638.jpg?cb=1369759760">
+					</h3>
+				</section>
+
+				<section>
+					<p><u>WEB programming languages</u></p>
+					<br>
+					<h3>PHP</h3>
+					<p>ASP.NET</p>
+					<p>Python</p>
+					<p>Java</p>
+					<h2>Node</h2>
+					<p>RubyOnRails</p>
+					<p>...</p>
+				</section>
+
+				<section>
+					<p><u>Tools</u></p>
+					<p>git</p>
+					<p>SublimeText</p>
+					<p>Chrome Dev Tools</p>
+					<p>PaaS (Heroku, Openshift)</p>
+					<p>w3schools</p>
+					<p>...</p>
+					<p>Google Search</p>
+					<p></p>
+				</section>
+
+
+			</div>
+		</div>
+
+
+		<script src="../revealjs/lib/js/head.min.js"></script>
+		<script src="../revealjs/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				zoomKey: 'shift',
+
+				theme: Reveal.getQueryHash().theme || 'night', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
